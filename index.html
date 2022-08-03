@@ -9,13 +9,16 @@
     <!-- Bootstrap CSS and JS bundle -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <script src="./scripts/script.js"></script>
   </head>
 
   
   <body>
-    <nav class="navbar">
+    <nav class="navbar navbarScroll">
       <!-- LOGO -->
-      <div class="logo" href="#">C</div>
+      <div class="logo">
+        <a href="#">C</a>
+      </div>
       <!-- NAVIGATION MENU -->
       <ul class="nav-links">
         <!-- USING CHECKBOX HACK -->
@@ -67,19 +70,45 @@
         <div class="row">
           <div class="hero-text">
             <h2 class="hero_title">Chris Cantu</h2>
-            <p class="hero_desc">Software Developer</p>
+            <p class="hero_desc">Software Engineer</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- about section-->
+
     <section id="about">
+      <div class="about-box">
+        <h1 class="section-title text-center">About</h1>
+          <div class="photo"><img src="/images/background_img.jpg" alt="test"></div>
+          <div class="description">
+            <p>Test</p>
+          </div>
+        </div>
+     <!-- <div class="description-box">
+        <div class="container about">
+          <div class="photo">
+            <img src="images/test4.jpg" class= "imageAboutPage" alt="test">
+          </div>
+          <div class="text">
+            <p>dsadasdsdasdasdas</p>
+          </div>
+        </div>
+      </div> -->
+    </section>
+
+
+
+
+
+
+    <!-- about section-->
+    <!--<section id="about">
       <div class="container mt-4 pt-4">
         <h1 class="section-title text-center">About</h1>
           <div class="row mt-4">
             <div class="col-lg-4">
-              <!--<img src="images/about.jpeg" class= "imageAboutPage" alt=""> -->
+              <img src="images/about.jpeg" class= "imageAboutPage" alt="">
             </div>
             <div class="col-lg-8">
               <p>This is a test</p>
@@ -96,129 +125,141 @@
               </div>
             </div>
       </div>
-    </section>
+    </section> -->
 
 
     <!-- skills section-->
-    <section id="skills">
-      <div class="skills-section">
-          <h1 class="section-title text-center">Software Development</h1>
-          
-          <div class="skills-icons">
-            <div class="icon">
-              <i class="devicon-html5-plain"></i>
-                <span>HTML5</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-css3-plain"></i>
-                <span>CSS3</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-sass-original"></i>
-              <span>Sass</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-javascript-plain"></i>
-                <span>Javascript</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-python-plain"></i>
-                <span>Python</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-ruby-plain"></i>
-                <span>Ruby</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-go-original-wordmark"></i>
-                <span>Go</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-java-plain"></i>
-                <span>Java</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-react-original"></i>
-                <span>React</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-bootstrap-plain"></i>
-                <span>Bootstrap</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-nodejs-plain"></i>
-                <span>Node</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-express-original"></i>
-                <span>Express</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-nestjs-plain"></i>
-                <span>NestJS</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-django-plain"></i>
-                <span>Django</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-rails-plain"></i>
-                <span>Ruby on Rails</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-postgresql-plain"></i>
-                <span>PostgreSQL</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-mongodb-plain"></i>
-                <span>MongoDB</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-mysql-plain"></i>
-                <span>MySQL</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-graphql-plain"></i>
-                <span>GraphQL</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-git-plain"></i>
-                <span>Git</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-github-original"></i>
-                <span>Github</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-docker-plain"></i>
-                <span>Docker</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-mocha-plain"></i>
-                <span>Mocha</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-circleci-plain"></i>
-                <span>CircleCI</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-heroku-original"></i>
-                <span>Heroku</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-linux-plain"></i>
-                <span>Linux</span>
-            </div>
-            <div class="icon">
-              <i class="devicon-vscode-plain"></i>
-                <span>VS Code</span>
-            </div>
-          </div>         
-      </div>
-    </section>
+  <section id="skills">
+    <div class="skills-section">
+      <h1 class="section-title text-center">Software Development</h1>
+        <div class="skills-icons">
+          <div class="icon">
+            <i class="devicon-nodejs-plain"></i>
+              <span>Node</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-express-original"></i>
+              <span>Express</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-nestjs-plain"></i>
+              <span>NestJS</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-django-plain"></i>
+              <span>Django</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-rails-plain"></i>
+              <span>Ruby on Rails</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-docker-plain"></i>
+              <span>Docker</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-postgresql-plain"></i>
+              <span>PostgreSQL</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-mongodb-plain"></i>
+              <span>MongoDB</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-graphql-plain"></i>
+              <span>GraphQL</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-javascript-plain"></i>
+              <span>Javascript</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-python-plain"></i>
+            <span>Python</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-ruby-plain"></i>
+            <span>Ruby</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-go-original-wordmark"></i>
+            <span>Go</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-java-plain"></i>
+            <span>Java</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-react-original"></i>
+            <span>React</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-html5-plain"></i>
+            <span>HTML5</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-css3-plain"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-sass-original"></i>
+            <span>Sass</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-git-plain"></i>
+            <span>Git</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-mocha-plain"></i>
+            <span>Mocha</span>
+          </div>
+          <div class="icon">
+            <i class="devicon-circleci-plain"></i>
+            <span>CircleCI</span>
+          </div>
+        </div>         
+    </div>
+  </section>
 
   <!-- portfolio section-->
   <section id="portfolio">
+    <div class="container mt-3">
+        <h1 class="section-title text-center">Portfolio</h1>
+        <div class="projects-container">
+          
+          
+          
+          <div class ="project-card">
+            <h1 class ="title">SWAT</h1>
+            <p class="description">An application that keeps track of bugs and issues in a users project</p>
+            <div class="tech-stack">
+              <p>Teck Stack: </p>
+              <ul>
+                <li>fd</li>
+                <li>fd</li>
+              </ul>
+            </div>
+            <button class="button"><a href="https://github.com/cantuc40/SWAT" class="btn btn-dark">Github Repo</a></button>
+            <a href="https://swat-issue-tracker.herokuapp.com/" class="btn btn-dark">Website</a>         
+          </div>
+
+
+
+
+
+
+          <div class ="project-card">
+            <h1 class ="title">PC Building APP</h1>
+            <p class="description">An application allows you to create custom build PCs</p>
+            <a href="https://github.com/cantuc40/SWAT" class="btn btn-dark">Github Repo</a>
+            <a href="https://swat-issue-tracker.herokuapp.com/" class="btn btn-dark">Website</a>         
+          </div>
+        </div>
+    </div>
+  </section>
+
+  <!-- portfolio section-->
+ <!-- <section id="portfolio">
     <div class="container mt-3">
         <h1 class="section-title text-center">Portfolio</h1>
         <div class="row">
@@ -236,7 +277,7 @@
             </div>
         </div>
     </div>
-  </section>
+  </section> -->
 
 
   <!-- contact section-->
@@ -245,7 +286,6 @@
       <h1 class="section-title text-center">Contact Me</h1>
       <div class="row mt-4">
           <div class="col-lg-6">
-            
           </div>
           <div class="col-lg-6">
               <!-- form fields -->
@@ -262,6 +302,7 @@
       </div>
     </div>
   </section>
+
 
   <!-- footer section-->
   <footer id="footer">
